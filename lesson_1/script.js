@@ -14,9 +14,12 @@ let appData = {
     savings: false
 };
 
-let question1 = prompt("Введите обязательную статью расходов в этом месяце"),
-    question2 = prompt("Во сколько обойдется?"),
-    question3 = prompt("Введите обязательную статью расходов в этом месяце"),
-    question4 = prompt("Во сколько обойдется?");
+let a1 = prompt("Введите обязательную статью расходов в этом месяце"),
+    a2 = prompt("Во сколько обойдется?"),
+    a3 = prompt("Введите обязательную статью расходов в этом месяце"),
+    a4 = prompt("Во сколько обойдется?");
+
+appData.expenses.a1 = a2;
+appData.expenses.a3 = a4;
 
 alert("бюджет на 1 день = " + appData.budget / 30);
