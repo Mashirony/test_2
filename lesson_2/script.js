@@ -55,4 +55,14 @@ let a = true;
     b = true;
 console.log(!( a && b ));
 
-alert( null || 2 && 3 || 4 );
+let x = 5; alert(x++);
+console.log("153"[1]);
+alert( +"Infinity" ); 
+
+// let g = [1, 2, 3],
+//     h = [1, 2, 3];
+// if (g === h) {
+//     console.log("yes");
+// } else {
+//     console.log("no");
+// };
